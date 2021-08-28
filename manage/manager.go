@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	oauth2 "github.com/sktston/go-oauth2"
-	"github.com/sktston/go-oauth2/errors"
-	"github.com/sktston/go-oauth2/generates"
-	"github.com/sktston/go-oauth2/models"
+	"github.com/go-oauth2/oauth2/v4"
+	"github.com/go-oauth2/oauth2/v4/errors"
+	"github.com/go-oauth2/oauth2/v4/generates"
+	"github.com/go-oauth2/oauth2/v4/models"
 )
 
 // NewDefaultManager create to default authorization management instance

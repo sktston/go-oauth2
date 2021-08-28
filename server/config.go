@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	oauth2 "github.com/sktston/go-oauth2"
+	"github.com/go-oauth2/oauth2/v4"
 )
 
 // Config configuration parameters

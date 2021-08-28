@@ -6,8 +6,8 @@ import (
 	"encoding/base64"
 	"strings"
 
+	"github.com/go-oauth2/oauth2/v4"
 	"github.com/google/uuid"
-	oauth2 "github.com/sktston/go-oauth2"
 )
 
 // NewAuthorizeGenerate create to generate the authorize code instance

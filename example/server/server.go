@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
+	"github.com/go-oauth2/oauth2/v4/errors"
+	"github.com/go-oauth2/oauth2/v4/generates"
+	"github.com/go-oauth2/oauth2/v4/manage"
+	"github.com/go-oauth2/oauth2/v4/models"
+	"github.com/go-oauth2/oauth2/v4/server"
+	"github.com/go-oauth2/oauth2/v4/store"
 	"github.com/go-session/session"
-	"github.com/sktston/go-oauth2/errors"
-	"github.com/sktston/go-oauth2/generates"
-	"github.com/sktston/go-oauth2/manage"
-	"github.com/sktston/go-oauth2/models"
-	"github.com/sktston/go-oauth2/server"
-	"github.com/sktston/go-oauth2/store"
 )
 
 func main() {

@@ -8,12 +8,12 @@ import (
 	"testing"
 
 	"github.com/gavv/httpexpect"
-	oauth2 "github.com/sktston/go-oauth2"
-	"github.com/sktston/go-oauth2/errors"
-	"github.com/sktston/go-oauth2/manage"
-	"github.com/sktston/go-oauth2/models"
-	"github.com/sktston/go-oauth2/server"
-	"github.com/sktston/go-oauth2/store"
+	"github.com/go-oauth2/oauth2/v4"
+	"github.com/go-oauth2/oauth2/v4/errors"
+	"github.com/go-oauth2/oauth2/v4/manage"
+	"github.com/go-oauth2/oauth2/v4/models"
+	"github.com/go-oauth2/oauth2/v4/server"
+	"github.com/go-oauth2/oauth2/v4/store"
 )
 
 var (
