@@ -325,6 +325,12 @@ func (m *Manager) GenerateAccessToken(ctx context.Context, gt oauth2.GrantType, 
 	aexp := gcfg.AccessTokenExp
 	if exp := tgr.AccessTokenExp; exp > 0 {
 		aexp = exp
+	} else {
+		// TODO : define AccessTokenExp  Handler
+		switch tgr.Scope {
+		case "api":
+			aexp *= 24 * 36500
+		}
 	}
 	ti.SetAccessExpiresIn(aexp)
 	if gcfg.IsGenerateRefresh {
