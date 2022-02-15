@@ -329,7 +329,7 @@ func (m *Manager) GenerateAccessToken(ctx context.Context, gt oauth2.GrantType, 
 		// TODO : define AccessTokenExp  Handler
 		switch tgr.Scope {
 		case "api":
-			aexp = 24 * 7
+			aexp = 24 * 7 * time.Hour
 		}
 	}
 	ti.SetAccessExpiresIn(aexp)
